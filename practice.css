@@ -50,7 +50,7 @@ body {
     margin: 20px;
     transition: all ease 0.3s;
     box-shadow: inset 0px 5px 10px 0px #125590;
-    background: url('main-img.jpg') bottom;
+    background: url('img/main-img.jpg') bottom;
 
 
 }
@@ -96,7 +96,7 @@ input {
 }
 
 .btn {
-    background: url('ct-log.png') no-repeat left;
+    background: url('img/ct-log.png') no-repeat left;
     background-color: rgb(54, 50, 50);
     background-size: 3.8rem;
     border: 1px solid #0f9ad6;
@@ -125,7 +125,7 @@ input {
 
 input {
     margin-top: 2rem;
-    background: url('ct-log.png') no-repeat left;
+    background: url('img/ct-log.png') no-repeat left;
     background-color: rgb(54, 50, 50);
     background-size: 3.8rem;
     border: 1px solid #125590;
@@ -145,7 +145,7 @@ input {
 }
 
 .window {
-    background: url('back.png') no-repeat center;
+    background: url('img/back.png') no-repeat center;
     width: 3rem;
     margin-top: 2rem;
     background-color: rgb(54, 50, 50);
@@ -271,5 +271,11 @@ footer {
     .btnSubmit {
         margin-left: 6rem;
         margin-top: 1rem;
+    }
+}
+
+@media (min-width: 1540px) {
+    .window {
+        margin-right: 5.8rem;
     }
 }

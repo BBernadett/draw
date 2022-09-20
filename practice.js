@@ -53,7 +53,7 @@ class Person {
         var legyenJo = `
         <div class="flip-cards">
             <div class="flip-card-front">
-                <img class="card__image" src="image.png" alt="Person">
+                <img class="card__image" src="img/image.png" alt="Person">
                 <p class="user">${this.name}</p>
                 <button class="btn">Sorsolj egy számot</button>
             </div>
@@ -80,7 +80,7 @@ function newCard() {
     newFlipCard.appendChild(newFlipBack);
     wrapper.appendChild(newFlipCard);
     newFlipFront.innerHTML = `
-    <img src="image.png" alt="Person" class="card__image">
+    <img src="img/image.png" alt="Person" class="card__image">
     <form id='save'>
     <input type='text'  name='btnSubmit' class='btn'></input>
     <input type='submit' value='Mentés' id='btnSubmit'  class='btn btnSubmit'></input>
@@ -132,7 +132,7 @@ function addEvent(event) {
     <div class=card-back>
             <p class="user">${backName}:</p>
             <p class="number"> ${func}</p>
-            <img src="ct-log.png">
+            <img src="img/ct-log.png">
             </div>
      `;
 
